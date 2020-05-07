@@ -1,14 +1,14 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Dashboard from "./dashboard/Dashboard";
+import DashboardPage from "./dashboard/DashboardPage";
 import PageNotFound from "./PageNotFound";
-import { connect } from "react-redux";
+import Header from "./commons/header/Header";
 
 const App = (props) => (
   <div className="container">
-    <h1>Welcome APP</h1>
+    <Header />
     <Switch>
-      <Route exact path="/" component={Dashboard} />
+      <Route exact path="/" component={DashboardPage} />
       <Route component={PageNotFound} />
     </Switch>
   </div>
