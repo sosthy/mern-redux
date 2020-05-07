@@ -1,1 +1,7 @@
 {"message":"> Ready on http://localhost:3000","level":"info"}
+{"message":"Get all user function call","level":"info"}
+{"message":{"authorities":["ADMIN","USER"],"_id":"5eb49c600a2cd12a707ae50f","name":"ADMIN","description":"Administrateur par defaut de l'application","__v":0},"level":"info"}
+{"message":{"authorities":["USER"],"_id":"5eb49c610a2cd12a707ae510","name":"USER","description":"Utilisateur par defaut de l'application","__v":0},"level":"info"}
+{"message":{"_id":"5eb49c610a2cd12a707ae511","username":"admin","password":"$2b$10$jFxEAkZML3V.8bFWqrgSYe0IkHKoD4RQhYeutw2rBzQScZI63wwce","firstname":"first admin","lastname":"last admin","email":"admin@admin.com","photo":"","role":"5eb49c600a2cd12a707ae50f","__v":0},"level":"info"}
+{"message":{"_id":"5eb49c610a2cd12a707ae512","username":"user","password":"$2b$10$JUnStV6eX3RM.WkIq6kAueiE07X5EC6DP6JiK7p/MvRsIxhntR5pW","firstname":"first user","lastname":"last user","email":"user@user.com","photo":"","role":"5eb49c610a2cd12a707ae510","__v":0},"level":"info"}
+{"message":"Get all user function call","level":"info"}
