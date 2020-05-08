@@ -9,6 +9,7 @@ export default {
       address: "Douala",
       photo: "",
       role: "",
+      lang: "fr",
     },
     {
       username: "user",
@@ -19,6 +20,7 @@ export default {
       address: "Douala",
       photo: "",
       role: "",
+      lang: "fr",
     },
   ],
   roles: [

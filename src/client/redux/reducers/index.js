@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import villes from "./villeReducer";
+import users from "./userReducer";
+import roles from "./roleReducer";
 
 const rootReducer = combineReducers({
-  villes,
+  users,
+  roles,
 });
 
 export default rootReducer;

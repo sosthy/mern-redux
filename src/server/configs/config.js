@@ -5,7 +5,7 @@ let config = {
   prod: "production",
   test: "testing",
   logging: false,
-  port: parseInt(process.env.PORT, 10) || 3000,
+  port: parseInt(process.env.PORT, 10) || 8080,
   expireTime: 24 * 60 * 10, // 10 days
   secrets: {
     jwt: process.env.JWT_SECRET || "demoapp",

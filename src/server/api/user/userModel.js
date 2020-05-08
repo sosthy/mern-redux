@@ -26,6 +26,7 @@ const UserSchema = new Schema({
   },
   photo: { type: String },
   role: { type: Schema.Types.ObjectId, required: true, ref: "role" },
+  lang: { type: String, required: true },
 });
 
 // middleware that will run before a document is created

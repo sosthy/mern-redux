@@ -22,7 +22,7 @@ app.use(
   morgan("combined"),
   bodyParser.urlencoded({ extended: true }),
   bodyParser.json(),
-  cors(),
+  cors({ origin: "*" }),
   methodOverride(),
   globalErrorHandling() // set up global error handling
 );
